@@ -1,0 +1,174 @@
+h1{
+	font-size: 16px;
+}
+
+h2{
+	font-size: 14px;
+}
+
+.Titulo{
+	justify-content: center;
+	margin: 20vh 5vh;
+	text-align: center;
+}
+
+
+.Titulo h1{
+	font-size: 60px;
+	color: #fff;
+	margin-bottom: 2px;
+}
+
+
+.Titulo h2{
+	font-size: 25px;
+	color:#ffe;
+	text-align: center;
+}
+
+
+.Titulo a {
+	width: 128px;
+	display: inline-block;
+	background: linear-gradient(rgba(255,165,0,.9),rgba(255,255,0,.9));
+	font-size:14px;
+	color: #fff;
+	padding: 20px 10px;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+
+
+
+#Yo h3{
+	text-align: center;
+	font-size: 55px;
+	font-weight:normal;
+}
+
+#Yo #F2_Yo img{
+	width: 100%;
+}
+
+#Yo .TextoYo p{
+	font-size: 18px;
+	
+}
+
+#Yo .TextoYo a{
+	background: linear-gradient(rgba(255,165,0,.9),rgba(255,255,0,.9));
+	font-size: 24px;
+	color: #ffe;
+	margin: 25px auto;
+	padding:10px 20px;
+	display: table; 
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 5px 5px rgba(0,0,0,.5);
+
+}
+
+
+
+
+
+#pasiones #F1_P h3{
+	text-align: center;
+	font-size: 60px;
+	font-weight: normal;
+}
+
+#pasiones #F2_P .col-4 .PB{
+	background: linear-gradient(to left, rgba(0,191,255,.5), rgba(34,139,34,.9) );
+	box-shadow: 10px 10px rgba(24,68,186,.5);
+	border-radius: 5px;
+	position: relative;
+	padding: 10px;
+	margin: 20px auto;	
+	max-width:385px ;
+	
+}
+
+
+#pasiones #F2_P .col-4 .PB .Sinon {
+	width: 100%;
+
+}
+
+#pasiones #F2_P .col-4 .PB .Sinon img{
+	height:20vh;
+	width: inherit;
+}
+
+#pasiones #F2_P .col-4 p{
+	opacity: .8; 
+	text-align: justify;
+	width: 100%;
+	height:300px;
+	margin-top: 10px;
+}
+
+#pasiones #F2_P .col-4 .SAO{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	opacity: .7;
+	margin: 20px 10px 10px 10px; 
+
+
+}
+
+#pasiones #F2_P {
+display: flex;
+	justify-content: center;
+}
+
+
+
+
+#trabajos #F1_T h3{
+	text-align: center;
+	font-size: 60px;
+	font-weight: normal;
+}
+
+
+#trabajos #F2_T .col-12 img {
+	height: 20vh
+}
+
+#trabajos #F2_T .col-12 .marquesina{
+	display: flex;
+}
+
+#trabajos #F2_T .col-12 .tarjeta{
+	margin: 20px 15px;
+	background: #ffff;
+	padding: 5px;
+	text-align: center;
+	font-size: 20px;
+	max-width: 220px;
+	transition: .5s;
+} 
+
+#trabajos #F2_T .col-12 .tarjeta:hover{
+	transform: scale(1.1);
+	transition: .5s;
+}
+#nop{
+	width: 100%
+}
+
+
+#trabajos #F2_T .col-12 .esq1{
+	opacity: .3;
+	transform: rotateY(325deg);
+
+}
+
+#trabajos #F2_T .col-12 .esq2{
+	opacity: .3;
+	transform: rotateY(35deg);
+}
