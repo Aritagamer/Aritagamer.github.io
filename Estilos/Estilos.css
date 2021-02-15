@@ -15,29 +15,13 @@ nav
 
 }
 
-
-
-.box img{
-	width: 100%;
-	height: auto;
-  }
-  @supports(object-fit: cover){
-	  .box img{
-		height: 100%;
-		object-fit: cover;
-		object-position: center center;
-	  }
-  }
-
-.nav-wrapper .box
+.brand-logo
 {
-	
-	width: auto;
-	height: 100%;
-	background: #CCC;
-	overflow: hidden;
-	
+
+	background-color: purple;
+
 }
+
 
 .init
 {margin-top: 55px;}

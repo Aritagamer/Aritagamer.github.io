@@ -23,11 +23,11 @@ h1,h2,[class*="col-"] p{
 	margin:auto;
 	display: flex; 
 	justify-content: center;
+	
 }
 
-.caja img{
-	width:10%;
-}
+
+
 
 .fila{
 
@@ -39,6 +39,19 @@ h1,h2,[class*="col-"] p{
 	display: table;
 }
 
+.section-line
+{
+	border-bottom: 3px solid blue;
+	margin-bottom: 20px;
+}
+
+[class*="col-"] img
+{
+
+	width: 100%;
+	object-fit:cover;
+
+}
 .prod{
 	border-bottom: 1px solid black;
 }
