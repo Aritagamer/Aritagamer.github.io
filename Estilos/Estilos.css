@@ -68,5 +68,23 @@ nav
     border-style: dotted;
     border-color: red;
     border-width: 3px;
+	color:white;
 
+}
+
+.sidenav
+{
+
+	
+	color: #FFFFFF;
+	
+	background-color: violet;
+
+}
+
+.sidenav li > a
+{
+	color: #FFFFFF;
+	font-size: calc(1.3em + 2vw);
+	
 }
