@@ -9,12 +9,17 @@ for( var i = 0 ; i < imagnenes.length ; i++)
     imagnenes.item(i).src = Titular + "/" + name[name.length -1] ;
 }
 
+
 document.addEventListener("DOMContentLoaded",()=>
 {
     const carousel = document.querySelectorAll('.carousel');
-    M.Carousel.init(carousel,{
-        duration: 150
-    });
+    M.Carousel.init(
+        carousel,{
+            duration: 150
+        }
+    );
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
 })
 
 
