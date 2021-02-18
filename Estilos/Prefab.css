@@ -29,7 +29,8 @@ h1,h2,[class*="col-"] p{
 #mobile-demo
 {
 
-	font-size: calc(1rem + 1vw);
+	font-size: calc(1rem + 10vw);
+	background-color: blueviolet;
 
 }
 
