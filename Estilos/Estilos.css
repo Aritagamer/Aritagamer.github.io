@@ -2,7 +2,7 @@ body
 {
 
 	background: radial-gradient(rgb(),rgb());
-	background: linear-gradient(45deg,#74D4FE 25%,#7B357A 25%);
+	background: linear-gradient(45deg,#84fe74 25%,#c8ff01 25%);
 
 }
 nav 
@@ -18,10 +18,16 @@ nav
 .brand-logo
 {
 
-	background-color: purple;
+	background-color: rgb(255, 17, 0);
 
 }
 
+.brand-logo:hover
+{
+
+	background-color: rgb(255, 174, 0);
+
+}
 
 .init
 {margin-top: 55px;}
@@ -61,6 +67,7 @@ nav
 	position:absolute;
 }
 
+
 	
 .deLimit
 {
@@ -68,23 +75,53 @@ nav
     border-style: dotted;
     border-color: red;
     border-width: 3px;
-	color:white;
 
 }
 
-.sidenav
+a
 {
 
-	
-	color: #FFFFFF;
-	
-	background-color: violet;
+	color: white;
+	text-decoration: none;
 
 }
 
-.sidenav li > a
+a:visited{
+
+	color: white;
+	text-decoration: none;
+
+}
+
+.card
 {
-	color: #FFFFFF;
-	font-size: calc(1.3em + 2vw);
-	
+
+height:fit-content;
+
+}
+
+
+.card > a:hover
+{
+
+
+	z-index: 100;
+	background-color:rgba(71, 70, 70, 0.3);
+
+}
+
+
+.card > a
+{
+
+	color: rgb(0, 17, 255);
+	text-decoration: none;
+
+}
+
+.card > a:visited{
+
+	color: rgba(38, 0, 255, 0.596);
+	text-decoration: none;
+
 }

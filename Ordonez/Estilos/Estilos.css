@@ -1,0 +1,228 @@
+/*Extras*/
+
+body
+{
+
+	background: radial-gradient(rgb(),rgb());
+	background: linear-gradient(45deg,#74D4FE 25%,#7B357A 25%);
+	
+
+}
+
+.tit
+{
+
+	margin-top: 10px;
+	color: white;
+
+}
+
+.init
+{margin-top: 65px;}
+
+.deLimit
+{
+
+    border-style: dotted;
+    border-color: red;
+    border-width: 3px;
+
+}
+
+
+/*Nav-Bar y Side-bar*/
+
+nav 
+{
+	background-color: rgba(0, 68, 255, 0.9);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+
+}
+
+.navbar-brand
+{
+
+	
+	background-color: purple;
+	
+	
+
+}
+
+.navbar-brand > .color
+{
+
+	color:white;
+	font-size: calc(1em + .5vh) ;
+
+}
+
+
+.init-nav
+{margin-top: 20px;}
+
+.navbar-toggler
+{
+
+	background-color:whitesmoke;
+
+}
+
+.navbar-nav li > a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	
+	
+}
+
+.navbar-nav li > a:visited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+
+.collapse
+{
+
+	margin-top: 1vh;
+}
+
+
+/*Carousel*/
+#work
+{
+
+	width: 30vw;
+	height:30vh
+
+}
+
+.carousel
+{
+
+	margin-bottom: 20px;
+
+}
+
+.carousel .carousel-item img
+{
+	width: 100%;
+	height: 45vh;
+	max-height: min-content;
+	border-radius: 10px;
+
+}
+
+/*
+.carousel
+{
+	min-height: 500px;
+	
+}
+
+.carousel .carousel-item
+{
+
+	align-items: center;
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+
+}
+.carousel .carousel-item img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	top: 0;
+	left: 0;
+	border-radius: 10px;
+	position:absolute;
+}
+*/
+/* Reponsive */
+
+@media (orientation: landscape)
+{
+
+	.indm
+	{
+
+		height: auto;
+		width: 100%;
+		
+		
+		
+
+	}
+
+	.col-4 > .container
+	{
+
+		height: fit-content;
+		width: 10vw;
+
+	}
+
+		.navbar-nav li > a
+	{
+		color: #FFFFFF;
+		text-decoration: none;
+		font-size: calc(1em + 1vh);
+		
+	}
+
+	.navbar-nav li
+	{
+		padding: .5vh 2vw;
+	}
+	
+
+}
+
+@media (orientation: portrait)
+{
+
+	.indm
+	{
+
+		
+		height: auto;
+		width: 100%;
+		
+		
+
+	}
+
+	.col-4 > .container
+	{
+
+		height: fit-content;
+		width: 20vw;
+
+	}
+
+	.navbar-nav li > a
+	{
+		
+		font-size: calc(1em + 2vh);
+		
+	}
+
+	.navbar-nav li
+	{
+		padding: .5vh 2vw .5vh 2vw;
+	}
+	
+}
+
+
