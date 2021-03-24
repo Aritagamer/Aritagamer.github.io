@@ -18,7 +18,7 @@ body
 }
 
 .init
-{margin-top: 65px;}
+{margin-top: 6vh;}
 
 .deLimit
 {
@@ -95,13 +95,7 @@ nav
 
 
 /*Carousel*/
-#work
-{
 
-	width: 30vw;
-	height:30vh
-
-}
 
 .carousel
 {
@@ -112,11 +106,10 @@ nav
 
 .carousel .carousel-item img
 {
-	width: 100%;
-	height: 45vh;
+	
 	max-height: min-content;
-	border-radius: 10px;
-
+	border-radius: 30px;
+	margin-bottom: 50px;
 }
 
 /*
@@ -185,8 +178,36 @@ nav
 	{
 		padding: .5vh 2vw;
 	}
-	
+	.carousel-inner
+	{
+		
+		
+		justify-content: center;
+		align-content:center;
+		align-self:center;
 
+	}
+	
+	.carousel .carousel-item
+	{
+
+		width: 100%;
+		height: 70vh;
+		align-self:center;
+		
+
+	}
+
+	.carousel .carousel-item > img
+	{
+
+		width: 100%;
+		height: 100%;
+		align-self: center;
+		object-fit: fill;
+		
+		
+	}
 }
 
 @media (orientation: portrait)
@@ -223,6 +244,27 @@ nav
 		padding: .5vh 2vw .5vh 2vw;
 	}
 	
+	
+	.carousel .carousel-item
+	{
+
+		width: 100%;
+		height: 25vh;
+		align-self:center;
+		
+
+	}
+
+	.carousel .carousel-item > img
+	{
+
+		width: 100%;
+		height: 100%;
+		align-self: center;
+		object-fit: fill;
+		
+		
+	}
 }
 
 
